@@ -26,6 +26,7 @@ class Faq extends Component{
             <div className="container">
             <section className="section">
             <h1 className="title">FAQ</h1>
+            <button type="button" className="btn btn-primary">Test bootstrap button</button>
             <h2 className="subtitle is-4">Lorum ipsum and all of that jazz.</h2>
 
             <div className="columns" >

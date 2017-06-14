@@ -25,7 +25,7 @@ class Header extends Component {
       <div className="nav has-shadow">
       <div className="container">
         <div className="nav-left">
-          <a className="nav-item">MyCompany</a>
+          <Link to ="/" className="nav-item r-item">Joeyable Express</Link>
         </div>
 
         <span className={'nav-toggle '+menuActive} onClick={this.handleClick} >

@@ -14,6 +14,7 @@ class App extends Component {
       <Header/>
       <Route exact= {true} path="/" component={Home} />
       <Route path="/faq" component={Faq} />
+      <button type="button" className="btn btn-primary">Primary</button>
       <Footer/>
       </div>
     );

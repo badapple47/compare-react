@@ -1,14 +1,17 @@
 .hero {
   background: url("../../assets/clouds.jpg");
   background-size: cover; }
+
+.joeyinbox {
+  text-align: center; }
   @media screen and (max-width: 768px) {
-    .hero .title {
+    .joeyinbox .title {
       font-weight: bold; } }
   @media screen and (min-width: 769px), print {
-    .hero .title {
+    .joeyinbox .title {
       font-size: 2.5rem; } }
   @media screen and (min-width: 1000px) {
-    .hero .title {
+    .joeyinbox .title {
       font-size: 4rem;
       margin-top: 2rem; } }
 

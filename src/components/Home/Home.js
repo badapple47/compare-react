@@ -22,10 +22,12 @@ class Home extends Component {
                     </div>
                 </section>
 
-
-                <input type="text" name="name" value=""/>
-                <input type="submit"name="submit" value="submit"/>
-
+                <section className="joeyinbox">
+                    <form action="/thaipost" method="post">
+                      <input type="text" name="name" value=""/>
+                      <input type="submit"name="submit" value="submit"/>
+                    </form>
+                </section>
 
                 <section className='section'>
                     <div className="container">
